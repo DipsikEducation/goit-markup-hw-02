@@ -1,0 +1,58 @@
+/*Main settings */
+body{
+    font-family:"Roboto" sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+
+
+:root{
+    --main-color:#2E2F42;
+    --secondary-color:#434455;
+    --brand-color: #404BBF; 
+    --hover-color: #4D5AE5;
+}
+
+/*Main color: #2E2F42 (NAVY BLUE) 
+Use: Overley, Shadows,Headings*/
+
+
+/*Secondary color: #434455 (SLATE)
+Use: Body text, in paragraph   */
+
+
+/*Brand color: #404BBF(OCEAN) 
+Use: When tap link */
+
+/*Hover&Active color:#4D5AE5 (IRIS) */
+
+.link{
+    text-decoration: none;
+
+}
+
+.list{
+    list-style: none;
+}
+
+.hiden{
+    display: none;
+}
+
+
+
+.logo{
+    color: #4D5AE5;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+
+.logo-decoration{
+    color: var(--main-color);
+    line-height: 1.16;
+}
