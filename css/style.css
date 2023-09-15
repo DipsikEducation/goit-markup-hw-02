@@ -53,7 +53,7 @@ Use: When tap link */
 }
 
 .logo-decoration{
-    color: var(--main-color);
+    color: #2e2f42;
     line-height: 1.16;
 }
 
@@ -105,7 +105,7 @@ address{
 .contact-list-item{
 font-family: "Roboto", sans-serif;
     font-weight: 400;
-    color: var(--secondary-color);
+    color: var(--brand-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -148,7 +148,7 @@ font-family: "Roboto", sans-serif;
 
 .order-button:hover,
 .order-button:focus{
-    color: var(--brand-color);
+    background-color: var(--brand-color);
 }
 
 
@@ -186,7 +186,7 @@ font-family: "Roboto", sans-serif;
 /*Third Section*/
 
 .third-section{
-    background-color: #ffffff;
+background-color: #F4F4FD
 }
 
 .team-title{
@@ -202,7 +202,10 @@ font-family: "Roboto", sans-serif;
 
 .team-list{
 
+}
 
+.team-list-item{
+    background-color: #FFFFFF
 }
 
 .team-member{
@@ -274,7 +277,7 @@ font-family: "Roboto", sans-serif;
     font-family:"Roboto",sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.17;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
